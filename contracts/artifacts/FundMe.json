@@ -1,0 +1,56 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122023c71e4ca8636c65f3b8d1a7d806d6ad9766a2c4178922c078c990093f92df7064736f6c63430006060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x23 0xC7 0x1E 0x4C 0xA8 PUSH4 0x6C65F3B8 0xD1 0xA7 0xD8 MOD 0xD6 0xAD SWAP8 PUSH7 0xA2C4178922C078 0xC9 SWAP1 MULMOD EXTCODEHASH SWAP3 0xDF PUSH17 0x64736F6C63430006060033000000000000 ",
+			"sourceMap": "27:26:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;27:26:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea264697066735822122023c71e4ca8636c65f3b8d1a7d806d6ad9766a2c4178922c078c990093f92df7064736f6c63430006060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x23 0xC7 0x1E 0x4C 0xA8 PUSH4 0x6C65F3B8 0xD1 0xA7 0xD8 MOD 0xD6 0xAD SWAP8 PUSH7 0xA2C4178922C078 0xC9 SWAP1 MULMOD EXTCODEHASH SWAP3 0xDF PUSH17 0x64736F6C63430006060033000000000000 ",
+			"sourceMap": "27:26:0:-:0;;;12:1:-1;9;2:12"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
